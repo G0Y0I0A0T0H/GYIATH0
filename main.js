@@ -13,7 +13,7 @@ btn.addEventListener("click",function(){
     const correctpassword=123456
 const correctemail="joe@gmail.com"
 
-    if(username.value==correctusername&&password_input.value==correctpassword&&email_input.value==correctemail){
+    if(username.value==correctusername&&password_input.value==correctpassword||email_input.value==correctemail){
         content.innerHTML="Correct Username and password"
         content.style.color="green"
 
